@@ -1,13 +1,13 @@
 import React from 'react';
 
-import CustomPage from "../components/custom-page";
+// import CustomPage from "../components/custompage";
 
 
 
 const Faq = () => {
     return (
         <>
-            <CustomPage customurl='faq' />
+            <CustomPage slug='faq' />
         </>
     );
 };

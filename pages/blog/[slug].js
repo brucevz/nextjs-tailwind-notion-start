@@ -4,7 +4,7 @@ import React from 'react';
 
 
 import { getAllPosts } from "../blog";
-import Navigation from "../../components/navigation";
+
 export async function getStaticProps({ params: { slug }, }) {
     // Get all posts again
     const posts = await getAllPosts();
