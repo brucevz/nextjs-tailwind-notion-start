@@ -1,13 +1,16 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Navigation from "../components/navigation";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div >
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+        <Navigation />
 
         <div className="relative bg-white overflow-hidden">
             <div className="hidden lg:block lg:absolute lg:inset-0" aria-hidden="true">
